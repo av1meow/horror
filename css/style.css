@@ -1,0 +1,99 @@
+body {
+  background-color:#ffff00;
+}
+.col-sm-6 {
+  height: 200px;
+  background-color: #008000;
+}
+
+.col-sm-8 {
+  height: 200px;
+  background-color: #0000ff;
+}
+
+.col-sm-8 {
+  height: 75px;
+  background-color: #9900cc ;
+}
+
+.col-sm-4 {
+  hight: 75px;
+  background-color: #ffff00
+}
+
+.query-test {
+  width: 50%;
+  background-color:#ff99ff;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 900px) {
+    .query-test {
+      width: 80%;
+      background-color: #ff0000;
+    }
+}
+
+.meow {
+  width: 50%;
+  background-color: #66ffff;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 500px) {
+  .meow {
+    width: 80%;
+    background-color: #ff33cc;
+  }
+}
+
+.help {
+  height: 100px;
+  width:50%;
+  background-color: #000;
+}
+
+/*Media Queries*/
+@media only screen and (min-width: 800px) {
+  .help{
+    width: 80%;
+    background-color: #ccff66;
+  }
+}
+@media only screen and (min-width:500px) {
+  h1.my-class{
+    font-size: 70px;
+  }
+}
+
+.border {
+  border: 14px;
+  color: #000;
+}
+
+ .header {
+  background-color: #0000ff;
+  height: 123px;
+}
+
+#nav {
+  background-color: #008000;
+}
+
+.col-sm-8 {
+  background-color: #ff0000;
+  height: 123px;
+}
+
+.col-sm-4{
+  background-color: #00ffff;
+  height: 123px;
+}
+
+.col-sm-3 {
+  background-color: #ffa500;
+}
+.footer {
+  color: #ffffff;
+  background-color: #000;
+}
